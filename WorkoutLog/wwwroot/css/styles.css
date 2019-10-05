@@ -1,0 +1,112 @@
+﻿
+
+
+/******************************* GENERAL SETTINGS **************************/
+body {
+    margin: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 1.75em;    
+}
+
+
+/******************************* LANDING PAGE *************************/
+
+.intro {
+    margin: 0; 
+    padding-top: 115px;
+    padding-left: 25px;
+}
+.background-journal h3 {
+    padding-bottom: 10px;
+    color: mediumorchid;
+}
+
+
+.background-text {
+    background-color: rgba(201, 187, 159, 0.9);
+    height: 360px;
+    width: 425px;
+    text-align: center;
+    padding: 20px 20px;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-40%, -60%);
+    color: #302f2e;
+    border-radius: 25px;
+    font-size: 1.5em;
+}
+
+.background-journal {
+    background-image: url('../images/journal.jpg');
+    background-color: #ccc;
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*************** EXERCISE LIST PAGE ****************/
+table {
+    font-size: 1.5em;
+}
+
+.color {
+    background-color: lightgray;
+}
+
+
+/*************** EXERCISE LIST PAGE ****************/
+.border {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px 5px;
+}
+
+.color {
+    background-color: lightgray;
+}
+
+
+
+/******************************* FORM VALIDATION **************************/ 
+/*.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee; 
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}*/
+
+
+
+/******************************* LINKS **************************/
+
+
+/*a:link, a:visited, a:hover, a:active, a:focus {
+    font-size: 1.25em;
+    background-color: #03c6fc;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}*/
+
+

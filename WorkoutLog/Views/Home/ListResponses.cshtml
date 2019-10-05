@@ -1,0 +1,47 @@
+﻿@model IEnumerable<WorkoutLog.Models.Exercise>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <title>List Responses</title>
+</head>
+
+<body class="color">
+    <div class="container">
+        <div class="panel-body">
+            <h2>Here is the list of your workouts:</h2>
+
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Workout</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (WorkoutLog.Models.Exercise e in Model)
+                    {
+                        <tr>
+                            <td>@e.Workout</td>
+                            <td>@e.Time</td>
+                            <td>@e.Date</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a class="btn btn-primary" asp-action="Index">Home</a>            
+        </div>
+
+    </div>
+
+</body>
+

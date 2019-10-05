@@ -1,0 +1,29 @@
+﻿@model WorkoutLog.Models.Exercise
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <title>Workout Added</title>
+</head>
+<body>
+    <div class="container">
+        <div class="border">
+            <h1>Exercise added: </h1>
+            <h1>@Model.Workout</h1>
+        </div>
+        
+        <a class="btn btn-primary" asp-action="Index">Add another</a>
+        <a class="btn btn-primary" asp-action="ListResponses">See your lists</a>
+    </div>
+</body>
+</html>
